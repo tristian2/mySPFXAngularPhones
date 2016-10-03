@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x010008463D7080C14D20BAE3249BB6539F08"
+               Name="CTTest"
+               Group="xx Custom Content Types"
+               Description="Test Content Type"
+               Inherits="TRUE"
+               Version="0">
+    <FieldRefs>
+      <FieldRef ID="{5494cdcd-9024-4b11-bb68-05b4eea446e6}" DisplayName="Region Code" Name="RegionCode" Required="TRUE" />
+      <FieldRef ID="{79673e69-c394-4829-b5eb-1d4853a88596}" DisplayName="Size of Region" Required="FALSE" Name="SizeOfRegion" />
+      <FieldRef ID="{40aa1cf1-652d-41bf-b863-f997eb7597fe}" Name="Arup_Region" DisplayName="Region" Description="The Regions the article is relevant to" Required="FALSE" />
+      <FieldRef ID="{78741768-3ed9-4016-8a99-a5a64e4d2968}" DisplayName="First Letter" Name="FirstLetter" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

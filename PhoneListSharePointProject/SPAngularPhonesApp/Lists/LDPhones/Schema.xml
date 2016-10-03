@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="This list contains phones" FolderCreation="FALSE" Direction="$Resources:Direction;" 
+      Url="Lists/LDPhones" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+
+    <MetaData>
+		<ContentTypes>
+      <ContentType ID="0x0100F556ADE56A23453288CB64D7AD074570"
+                   Name="Phone"
+                   Group="Tris Angular Phone App"
+                   Description="Phone"
+                   Inherits="TRUE"
+                   Version="0">
+				<FieldRefs>
+          <FieldRef ID="{21274771-3725-47d4-b0e9-fe03be21103d}" Name="Age" Required="TRUE" />
+          <FieldRef ID="{61f75067-625e-4877-964b-c8b49e918671}" Name="ImageURL" Required="TRUE" />
+          <FieldRef ID="{57dc80b0-54a5-4ce7-83a5-0e517f9e5c65}" Name="PhoneId" Required="TRUE" />
+          <FieldRef ID="{e61f4e69-7e01-48e8-95ee-c470ed2ab29c}" Name="PhoneName" Required="TRUE" />
+          <FieldRef ID="{51979435-3a7d-4618-a641-6de45f5933a2}" Name="Snippet" Required="TRUE" />
+        </FieldRefs>
+			</ContentType>
+		</ContentTypes>
+		<Fields>
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="Phone Name" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+      <Field ID="{21274771-3725-47d4-b0e9-fe03be21103d}" Type="Text" Name="Age" Required="TRUE" />
+      <Field ID="{61f75067-625e-4877-964b-c8b49e918671}" Type="Text" Name="ImageURL" Required="TRUE" />
+      <Field ID="{57dc80b0-54a5-4ce7-83a5-0e517f9e5c65}" Type="Text" Name="PhoneId" Required="TRUE" />
+      <Field ID="{e61f4e69-7e01-48e8-95ee-c470ed2ab29c}" Type="Text" Name="PhoneName" Required="TRUE" />
+      <Field ID="{51979435-3a7d-4618-a641-6de45f5933a2}" Type="Text" Name="Snippet" Required="TRUE" />      			
+		</Fields>
+		<Views>
+			<View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>        
+				<Query>
+					<OrderBy>
+						<FieldRef Name="Title" />
+					</OrderBy>
+				</Query>
+				<ViewFields>
+					<FieldRef Name="Title" />
+					<FieldRef Name="Age" />
+					<FieldRef Name="ImageURL" />
+					<FieldRef Name="PhoneId" />
+					<FieldRef Name="PhoneName" />
+          <FieldRef Name="Snippet" />          
+				</ViewFields>
+			</View>
+		</Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>    
+	</MetaData>
+</List>

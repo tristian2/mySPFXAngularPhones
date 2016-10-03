@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- ensure the featureid is right!! https://egilhansen.com/2012/10/05/remember-the-featureid-when-creating-a-custom-listinstance-in-sharepoint-2010/-->
+  <ListInstance Title="Phones"
+                OnQuickLaunch="TRUE"
+                TemplateType="30000"
+                FeatureId="a5addb25-0602-4425-a94b-f5f7295c31bb"
+                Url="Lists/Phones"
+                Description="This list stores phones for the app."
+                >
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Samsung Galaxy</Field>
+          <Field Name="Age">5</Field>
+          <Field Name="ImageURL">xxx</Field>
+          <Field Name="PhoneId">xxx123</Field>
+          <Field Name="PhoneName">Samsung Galaxy</Field>
+          <Field Name="Snippet">Samsung GalaxySamsung GalaxySamsung Galaxy</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    Title="Regions"
+    OnQuickLaunch="TRUE"
+    TemplateType="30008"
+    FeatureId="2f616c7e-01c5-44fe-ac70-7f6694f528d7"
+    Url="Lists/Region"
+    Description="TrisCorp Regions information"></ListInstance>
+</Elements>

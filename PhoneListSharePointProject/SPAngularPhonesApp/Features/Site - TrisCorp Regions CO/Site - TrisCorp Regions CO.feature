@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feature xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="b07c8bff-c15e-40cc-96c0-9ed5d15b273f" featureId="b07c8bff-c15e-40cc-96c0-9ed5d15b273f" imageUrl="" scope="Site" solutionId="00000000-0000-0000-0000-000000000000" title="Site - TrisCorp Regions CO" version="" deploymentPath="$SharePoint.Project.FileNameWithoutExtension$_$SharePoint.Feature.FileNameWithoutExtension$" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/FeatureModel" />

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="b08647f3-f284-4b64-994e-3e9cb5e704a0" solutionId="b08647f3-f284-4b64-994e-3e9cb5e704a0" resetWebServer="false" sharePointProductVersion="15.0" name="TrisAngularPhonesApp" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="c43a704e-2dfb-4130-8ced-3ab7225d122b" />
+    <featureReference itemId="2c7cf5ef-52a2-4cc5-a85f-c9fc1d93ee0a" />
+    <featureReference itemId="3b30714b-7552-44b3-9788-1471e4af04e6" />
+  </features>
+</package>

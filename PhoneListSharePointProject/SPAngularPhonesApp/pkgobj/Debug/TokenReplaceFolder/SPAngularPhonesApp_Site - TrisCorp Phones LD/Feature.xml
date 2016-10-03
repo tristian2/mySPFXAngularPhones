@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="TrisCorp Phones Lists" Id="a5addb25-0602-4425-a94b-f5f7295c31bb" Scope="Site" Title="Site - TrisCorp Phones LD">
+  <ActivationDependencies>
+    <ActivationDependency FeatureDescription="TrisCorp Phones Content Types" FeatureId="f6dc2c03-f3fc-4b17-8813-7a3914dab8e0" FeatureTitle="Site - TrisCorp Phones CT" />
+  </ActivationDependencies>
+  <ElementManifests>
+    <ElementManifest Location="LDPhone\Elements.xml" />
+    <ElementFile Location="LDPhone\Schema.xml" />
+    <ElementManifest Location="LIPhone\Elements.xml" />
+    <ElementManifest Location="COCarrier\Elements.xml" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,3 @@
+C:\Users\OBrienT\Source\Repos\angular-phonecatSP\SharePointPhoneCatApp\SharePointPhoneCatApp\bin\Debug\SharePointPhoneCatApp.pdb
+C:\Users\OBrienT\Source\Repos\angular-phonecatSP\SharePointPhoneCatApp\SharePointPhoneCatApp\obj\Debug\SharePointPhoneCatApp.dll
+C:\Users\OBrienT\Source\Repos\angular-phonecatSP\SharePointPhoneCatApp\SharePointPhoneCatApp\obj\Debug\SharePointPhoneCatApp.pdb

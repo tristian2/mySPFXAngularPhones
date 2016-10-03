@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+       ID="{5494cdcd-9024-4b11-bb68-05b4eea446e6}"
+       Name="TrisCorp_RegionCode"
+       StaticName="TrisCorp_RegionCode"
+       DisplayName="TrisCorp Region Code"
+       Type="Text"
+       Required="TRUE"
+       EnforceUniqueValues="TRUE"
+       Indexed="TRUE"
+       Group="Tris Angular Phone App"
+       Description="Insert Region Code here">
+  </Field>
+</Elements>

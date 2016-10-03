@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Field
+       ID="{79673e69-c394-4829-b5eb-1d4853a88596}"
+       Name="TrisCorp_SizeOfRegion"
+       StaticName="TrisCorp_SizeOfRegion"
+       DisplayName="Size of Region"
+       Type="Number"
+       Required="FALSE"
+       Group="Tris Angular Phone App">
+  </Field>
+</Elements>

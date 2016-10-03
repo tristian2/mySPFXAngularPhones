@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{c5567163-eebe-4c08-9f98-d924338e0c63}"
+       Name="COTest"
+       DisplayName="CO Test"
+       Type="Text"
+       Required="FALSE"
+       Group="zzTest Custom Site Columns">
+  </Field>
+</Elements>

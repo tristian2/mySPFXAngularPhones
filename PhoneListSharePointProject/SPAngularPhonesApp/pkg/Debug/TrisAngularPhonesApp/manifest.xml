@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="b08647f3-f284-4b64-994e-3e9cb5e704a0" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="WspImportProject1.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="SPAngularPhonesApp_Site - TrisCorp Phones CO\Feature.xml" />
+    <FeatureManifest Location="SPAngularPhonesApp_Site - TrisCorp Phones CT\Feature.xml" />
+    <FeatureManifest Location="SPAngularPhonesApp_Site - TrisCorp Phones LD\Feature.xml" />
+  </FeatureManifests>
+</Solution>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="7baa6bb8-d663-41c0-a195-4e39a56b638e" SharePointProductVersion="16.0">
+  <FeatureManifests>
+    <FeatureManifest Location="SharePointPhoneCatApp_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

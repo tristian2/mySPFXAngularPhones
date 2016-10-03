@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100F556ADE56A23453288CB64D7AD074570" Name="Phone" Group="Tris Angular Phone App" Description="Phone" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{21274771-3725-47d4-b0e9-fe03be21103d}" Name="Age" DisplayName="Age" Required="TRUE" />
+      <FieldRef ID="{61f75067-625e-4877-964b-c8b49e918671}" Name="ImageURL" DisplayName="Image URL" Required="TRUE" />
+      <FieldRef ID="{57dc80b0-54a5-4ce7-83a5-0e517f9e5c65}" Name="PhoneId" DisplayName="PhoneId" Required="TRUE" />
+      <FieldRef ID="{51979435-3a7d-4618-a641-6de45f5933a2}" Name="Snippet" DisplayName="Snippet" Required="TRUE" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

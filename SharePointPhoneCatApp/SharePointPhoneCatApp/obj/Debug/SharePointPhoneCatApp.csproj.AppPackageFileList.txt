@@ -1,0 +1,1 @@
+C:\Users\OBrienT\Source\Repos\angular-phonecatSP\SharePointPhoneCatApp\SharePointPhoneCatApp\bin\Debug\app.publish\1.0.0.25\SharePointPhoneCatApp.app

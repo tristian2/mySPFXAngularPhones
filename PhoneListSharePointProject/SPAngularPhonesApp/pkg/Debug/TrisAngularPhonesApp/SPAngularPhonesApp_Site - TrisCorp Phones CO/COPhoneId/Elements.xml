@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{57dc80b0-54a5-4ce7-83a5-0e517f9e5c65}"
+       Name="PhoneId"
+       DisplayName="PhoneId"
+       Type="Text"
+       Required="FALSE"       
+       EnforceUniqueValues="TRUE"
+       Indexed="TRUE"
+       Group="TrisCorp Angular Phone App">
+  </Field>
+</Elements>

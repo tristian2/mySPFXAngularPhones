@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{51979435-3a7d-4618-a641-6de45f5933a2}"
+       Name="Snippet"
+       DisplayName="Snippet"
+       Type="Text"
+       Required="FALSE"
+       Group="TrisCorp Angular Phone App">
+  </Field>
+</Elements>

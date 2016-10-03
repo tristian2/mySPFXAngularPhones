@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="TrisCorp Phones Content Types" Id="f6dc2c03-f3fc-4b17-8813-7a3914dab8e0" Scope="Site" Title="Site - TrisCorp Phones CT">
+  <ActivationDependencies>
+    <ActivationDependency FeatureDescription="TrisCorp Phones Site Columns" FeatureId="ff189647-47c4-425d-b806-d8a3a77d6290" FeatureTitle="Site - TrisCorp Phones CO" />
+  </ActivationDependencies>
+  <ElementManifests>
+    <ElementManifest Location="CTPhones\Elements.xml" />
+  </ElementManifests>
+</Feature>

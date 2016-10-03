@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Phones List" OnQuickLaunch="TRUE" TemplateType="100" Url="Lists/Phones List" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Age">0</Field>
+          <Field Name="PhoneId">motorola-xoom-with-wi-fi</Field>
+          <Field Name="ImageURL">img/phones/motorola-xoom-with-wi-fi.0.jpg</Field>
+          <Field Name="Title">Motorola XOOMT with Wi-Fi</Field>
+          <Field Name="Snippet">
+            The Next, Next Generation
+
+            Experience the future with Motorola XOOM with Wi-Fi, the world's first tablet po
+            wered by Android 3.0 (Honeycomb).
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Age">1</Field>
+          <Field Name="PhoneId">motorola-xoom</Field>
+          <Field Name="ImageURL">img/phones/motorola-xoom.0.jpg</Field>
+          <Field Name="Title">MOTOROLA XOOMT</Field>
+          <Field Name="Snippet">
+            The Next, Next Generation
+
+            Experience the future with MOTOROLA XOOM, the world's first tablet powered by An
+            droid 3.0 (Honeycomb).
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Age">2</Field>
+          <Field Name="Carrier">AT&amp;T</Field>
+          <Field Name="PhoneId">motorola-atrix-4g</Field>
+          <Field Name="ImageURL">img/phones/motorola-atrix-4g.0.jpg</Field>
+          <Field Name="Title">MOTOROLA ATRIXT 4G</Field>
+          <Field Name="Snippet">
+            MOTOROLA ATRIX 4G the world's most powerful smartphone
+            .
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Age">3</Field>
+          <Field Name="PhoneId">dell-streak-7</Field>
+          <Field Name="ImageURL">img/phones/dell-streak-7.0.jpg</Field>
+          <Field Name="Title">Dell Streak 7</Field>
+          <Field Name="Snippet">
+            Introducing DellT Streak 7. Share photos, videos and m
+            ovies together. It's small enough to carry around, big enough to gather around.</Field>
+        </Row>
+        <Row>
+          <Field Name="Age">4</Field>
+          <Field Name="Carrier">Cellular South</Field>
+          <Field Name="PhoneId">samsung-gem</Field>
+          <Field Name="ImageURL">img/phones/samsung-gem.0.jpg</Field>
+          <Field Name="Title">Samsung GemT</Field>
+          <Field Name="Snippet">
+            The Samsung GemT brings you everything that you would
+            expect and more from a touch display smart phone - more apps, more features and
+            a more affordable price.
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Age">5</Field>
+          <Field Name="Carrier">Dell</Field>
+          <Field Name="PhoneId">dell-venue</Field>
+          <Field Name="ImageURL">img/phones/dell-venue.0.jpg</Field>
+          <Field Name="Title">Dell Venue</Field>
+          <Field Name="Snippet">
+            The Dell Venue; Your Personal Express Lane to Everythi
+            ng
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Age">6</Field>
+          <Field Name="Carrier">Best Buy</Field>
+          <Field Name="PhoneId">nexus-s</Field>
+          <Field Name="ImageURL">img/phones/nexus-s.0.jpg</Field>
+          <Field Name="Title">Nexus S</Field>
+          <Field Name="Snippet">
+            Fast just got faster with Nexus S. A pure Google exper
+            ience, Nexus S is the first phone to run Gingerbread (Android 2.3), the fastest
+            version of Android yet.
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Age">7</Field>
+          <Field Name="Carrier">Cellular South</Field>
+          <Field Name="PhoneId">lg-axis</Field>
+          <Field Name="ImageURL">img/phones/lg-axis.0.jpg</Field>
+          <Field Name="Title">LG Axis</Field>
+          <Field Name="Snippet">
+            Android Powered, Google Maps Navigation, 5 Customizabl
+            e Home Screens
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Age">8</Field>
+          <Field Name="PhoneId">samsung-galaxy-tab</Field>
+          <Field Name="ImageURL">img/phones/samsung-galaxy-tab.0.jpg</Field>
+          <Field Name="Title">Samsung Galaxy TabT</Field>
+          <Field Name="Snippet">
+            Feel Free to TabT. The Samsung Galaxy TabT brings you
+            an ultra-mobile entertainment experience through its 7" display, high-power proc
+            essor and Adobe® Flash® Player compatibility.
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Age">9</Field>
+          <Field Name="Carrier">Cellular South</Field>
+          <Field Name="PhoneId">samsung-showcase-a-galaxy-s-phone</Field>
+          <Field Name="ImageURL">
+            img/phones/samsung-showcase-a-galaxy-s-phone.0.jpg</Field>
+            <Field Name="Title">Samsung ShowcaseT a Galaxy ST phone</Field>
+            <Field Name="Snippet">
+              The Samsung ShowcaseT delivers a cinema quality experi
+              ence like you've never seen before. Its innovative 4" touch display technology p
+              rovides rich picture brilliance, even outdoors
+            </Field>
+          </Row>
+        <Row>
+          <Field Name="Age">10</Field>
+          <Field Name="Carrier">Verizon</Field>
+          <Field Name="PhoneId">droid-2-global-by-motorola</Field>
+          <Field Name="ImageURL">img/phones/droid-2-global-by-motorola.0.jpg</Field>
+          <Field Name="Title">DROIDT 2 Global by Motorola</Field>
+          <Field Name="Snippet">
+            The first smartphone with a 1.2 GHz processor and glob
+            al capabilities.
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Age">11</Field>
+          <Field Name="Carrier">Verizon</Field>
+          <Field Name="PhoneId">droid-pro-by-motorola</Field>
+          <Field Name="ImageURL">img/phones/droid-pro-by-motorola.0.jpg</Field>
+          <Field Name="Title">DROIDT Pro by Motorola</Field>
+          <Field Name="Snippet">The next generation of DOES.</Field>
+        </Row>
+        <Row>
+          <Field Name="Age">12</Field>
+          <Field Name="Carrier">AT&amp;T</Field>
+          <Field Name="PhoneId">motorola-bravo-with-motoblur</Field>
+          <Field Name="ImageURL">img/phones/motorola-bravo-with-motoblur.0.jpg</Field>
+
+          <Field Name="Title">MOTOROLA BRAVOT with MOTOBLURT</Field>
+          <Field Name="Snippet">An experience to cheer about.</Field>
+        </Row>
+        <Row>
+          <Field Name="Age">13</Field>
+          <Field Name="Carrier">T-Mobile</Field>
+          <Field Name="PhoneId">motorola-defy-with-motoblur</Field>
+          <Field Name="ImageURL">img/phones/motorola-defy-with-motoblur.0.jpg</Field>
+          <Field Name="Title">Motorola DEFYT with MOTOBLURT</Field>
+          <Field Name="Snippet">
+            Are you ready for everything life throws your way?</Field>
+          </Row>
+        <Row>
+          <Field Name="Age">14</Field>
+          <Field Name="Carrier">T-Mobile</Field>
+          <Field Name="PhoneId">t-mobile-mytouch-4g</Field>
+          <Field Name="ImageURL">img/phones/t-mobile-mytouch-4g.0.jpg</Field>
+          <Field Name="Title">T-Mobile myTouch 4G</Field>
+          <Field Name="Snippet">
+            The T-Mobile myTouch 4G is a premium smartphone design
+            ed to deliver blazing fast 4G speeds so that you can video chat from practically
+            anywhere, with or without Wi-Fi.
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Age">15</Field>
+          <Field Name="Carrier">US Cellular</Field>
+          <Field Name="PhoneId">samsung-mesmerize-a-galaxy-s-phone</Field>
+          <Field Name="ImageURL">
+            img/phones/samsung-mesmerize-a-galaxy-s-phone.0.jpg</Field>
+            <Field Name="Title">Samsung MesmerizeT a Galaxy ST phone</Field>
+            <Field Name="Snippet">
+              The Samsung MesmerizeT delivers a cinema quality exper
+              ience like you've never seen before. Its innovative 4" touch display technology
+              provides rich picture brilliance,even outdoors
+            </Field>
+          </Row>
+        <Row>
+          <Field Name="Age">16</Field>
+          <Field Name="Carrier">Sprint</Field>
+          <Field Name="PhoneId">sanyo-zio</Field>
+          <Field Name="ImageURL">img/phones/sanyo-zio.0.jpg</Field>
+          <Field Name="Title">SANYO ZIO</Field>
+          <Field Name="Snippet">
+            The Sanyo Zio by Kyocera is an Android smartphone with
+            a combination of ultra-sleek styling, strong performance and unprecedented valu
+            e.
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Age">17</Field>
+          <Field Name="PhoneId">samsung-transform</Field>
+          <Field Name="ImageURL">img/phones/samsung-transform.0.jpg</Field>
+          <Field Name="Title">Samsung TransformT</Field>
+          <Field Name="Snippet">
+            The Samsung TransformT brings you a fun way to customi
+            ze your Android powered touch screen phone to just the way you like it through y
+            our favorite themed "Sprint ID Service Pack".
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Age">18</Field>
+          <Field Name="PhoneId">t-mobile-g2</Field>
+          <Field Name="ImageURL">img/phones/t-mobile-g2.0.jpg</Field>
+          <Field Name="Title">T-Mobile G2</Field>
+          <Field Name="Snippet">
+            The T-Mobile G2 with Google is the first smartphone bu
+            ilt for 4G speeds on T-Mobile's new network. Get the information you need, faste
+            r than you ever thought possible.
+          </Field>
+        </Row>
+        <Row>
+          <Field Name="Age">19</Field>
+          <Field Name="PhoneId">motorola-charm-with-motoblur</Field>
+          <Field Name="ImageURL">img/phones/motorola-charm-with-motoblur.0.jpg</Field>
+
+          <Field Name="Title">Motorola CHARMT with MOTOBLURT</Field>
+          <Field Name="Snippet">
+            Motorola CHARM fits easily in your pocket or palm.  In
+            cludes MOTOBLUR service.
+          </Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="TrisCorp Phones Site Columns" Id="ff189647-47c4-425d-b806-d8a3a77d6290" Scope="Site" Title="Site - TrisCorp Phones CO">
+  <ElementManifests>
+    <ElementManifest Location="COAge\Elements.xml" />
+    <ElementManifest Location="COImageURL\Elements.xml" />
+    <ElementManifest Location="COPhoneId\Elements.xml" />
+    <ElementManifest Location="COPhoneSnippet\Elements.xml" />
+  </ElementManifests>
+</Feature>

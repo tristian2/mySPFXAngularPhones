@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C3E176E4-604D-4046-8C57-16FE2A1CBA88}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WspImportProject1</RootNamespace>
+    <AssemblyName>WspImportProject1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content types\CTPhones\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7a1b8af1-995b-4876-a633-089f4f1e0c79}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Site - TrisCorp Phones LD\Site - TrisCorp Phones LD.feature">
+      <FeatureId>{3b30714b-7552-44b3-9788-1471e4af04e6}</FeatureId>
+    </None>
+    <None Include="Features\Site - TrisCorp Phones CT\Site - TrisCorp Phones CT.feature">
+      <FeatureId>{2c7cf5ef-52a2-4cc5-a85f-c9fc1d93ee0a}</FeatureId>
+    </None>
+    <None Include="Features\Site - TrisCorp Phones CO\Site - TrisCorp Phones CO.feature">
+      <FeatureId>{c43a704e-2dfb-4130-8ced-3ab7225d122b}</FeatureId>
+    </None>
+    <None Include="Fields\COAge\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e89f4141-c6ac-4a39-90bc-02cc74c0586f}</SharePointProjectItemId>
+    </None>
+    <None Include="Fields\COCarrier\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c1322e30-0eff-4747-ab9e-ae7fedfb487e}</SharePointProjectItemId>
+    </None>
+    <None Include="Fields\COImageURL\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{63cfd241-de26-4993-b8f3-5bc19c42d8b1}</SharePointProjectItemId>
+    </None>
+    <None Include="Fields\COPhoneId\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{5658a19f-03f8-4ee8-ba9b-bdd67cf05ba7}</SharePointProjectItemId>
+    </None>
+    <None Include="Fields\COPhoneSnippet\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f7bffb76-c1a9-4a6b-9917-060136babd98}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Lists\LDPhone\LIPhone\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a8300a67-fdd5-437f-9be8-423a46d55c45}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\LDPhone\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f45ae7d6-c865-4052-8934-c664c4c7a7af}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{7f733aca-6ef6-43bb-8cf0-abc47baa779e}</PackageId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content types\CTPhones\Elements.xml" />
+    <Content Include="Features\Site - TrisCorp Phones LD\Site - TrisCorp Phones LD.Template.xml">
+      <DependentUpon>Site - TrisCorp Phones LD.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Site - TrisCorp Phones CT\Site - TrisCorp Phones CT.Template.xml">
+      <DependentUpon>Site - TrisCorp Phones CT.feature</DependentUpon>
+    </Content>
+    <Content Include="Features\Site - TrisCorp Phones CO\Site - TrisCorp Phones CO.Template.xml">
+      <DependentUpon>Site - TrisCorp Phones CO.feature</DependentUpon>
+    </Content>
+    <Content Include="Fields\COAge\Elements.xml" />
+    <Content Include="Fields\COCarrier\Elements.xml" />
+    <Content Include="Fields\COImageURL\Elements.xml" />
+    <Content Include="Fields\COPhoneId\Elements.xml" />
+    <Content Include="Fields\COPhoneSnippet\Elements.xml" />
+    <Content Include="Lists\LDPhone\Elements.xml" />
+    <Content Include="Lists\LDPhone\LIPhone\Elements.xml" />
+    <Content Include="Lists\LDPhone\Schema.xml" />
+    <Content Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="List Template\" />
+    <Folder Include="Modules\" />
+    <Folder Include="Other elements\" />
+    <Folder Include="PropertyBags\" />
+    <Folder Include="Web templates\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

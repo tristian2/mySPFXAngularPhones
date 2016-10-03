@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="LDRegion" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/LD_Region" 
+      BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      <ContentType ID="0x010052446573282D483FAE9F94CA7E1F2637" Name="TrisCorp Region" Group="TrisCorp Search Centre Site Content Types" Description="Regionlist Content Type" Inherits="TRUE" Version="0">
+        <FieldRefs>
+          <FieldRef ID="{5494cdcd-9024-4b11-bb68-05b4eea446e6}" DisplayName="Region Code" Name="TrisCorp_RegionCode" Required="TRUE" />
+          <FieldRef ID="{79673e69-c394-4829-b5eb-1d4853a88596}" DisplayName="Size of Region" Required="FALSE" Name="TrisCorp_SizeOfRegion" />
+          <FieldRef ID="{78741768-3ed9-4016-8a99-a5a64e4d2968}" DisplayName="First Letter" Name="TrisCorp_FirstLetter" />
+        </FieldRefs>
+      </ContentType>
+    </ContentTypes>
+    <Fields>
+      <Field ID="{5494cdcd-9024-4b11-bb68-05b4eea446e6}" Type="Text" DisplayName="Region Code" Name="TrisCorp_RegionCode" StaticName="TrisCorp_RegionCode" Required="TRUE" EnforceUniqueValues="TRUE" Indexed="TRUE"/>
+      <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="Region" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" />
+      <Field ID="{79673e69-c394-4829-b5eb-1d4853a88596}" Name="TrisCorp_SizeOfRegion" StaticName="TrisCorp_SizeOfRegion" DisplayName="Size of Region" Type="Number" Required="FALSE" Group="TrisCorp Digital Workspace Columns"></Field>
+      <Field ID="{78741768-3ed9-4016-8a99-a5a64e4d2968}" Name="TrisCorp_FirstLetter" StaticName="TrisCorp_FirstLetter" Type="Calculated" DisplayName="First Letter" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="DateOnly" ResultType="Text" ReadOnly="TRUE" Group="TrisCorp Digital Workspace Columns">
+        <Formula>=LEFT(Title,1)</Formula>
+        <FieldRefs>
+          <FieldRef Name="Title" ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" />
+        </FieldRefs>
+      </Field>
+    </Fields>
+    <Views>
+      <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitleNoMenu"></FieldRef>
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="Modified" Ascending="FALSE"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View>
+      <View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          <FieldRef Name="LinkTitle" />
+          <FieldRef Name="TrisCorp_RegionCode" />
+          <FieldRef Name="TrisCorp_SizeOfRegion" />
+          <FieldRef Name="TrisCorp_Region" />
+          <FieldRef Name="TrisCorp_FirstLetter" />
+          <FieldRef Name="Modified" />
+        </ViewFields>
+        <Query>
+          <OrderBy>
+            <FieldRef Name="LinkTitle"></FieldRef>
+          </OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View>
+    </Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

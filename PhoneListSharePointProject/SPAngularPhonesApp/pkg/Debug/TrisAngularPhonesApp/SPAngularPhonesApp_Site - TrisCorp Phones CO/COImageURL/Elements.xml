@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{61f75067-625e-4877-964b-c8b49e918671}"
+       Name="ImageURL"
+       DisplayName="Image URL"
+       Type="Text"
+       Required="FALSE"
+       Group="TrisCorp Angular Phone App">
+  </Field>
+</Elements>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{e61f4e69-7e01-48e8-95ee-c470ed2ab29c}"
+       Name="PhoneName"
+       DisplayName="Phone Name"
+       Type="Text"
+       Required="FALSE"
+       Group="Tris Angular Phone App">
+  </Field>
+</Elements>

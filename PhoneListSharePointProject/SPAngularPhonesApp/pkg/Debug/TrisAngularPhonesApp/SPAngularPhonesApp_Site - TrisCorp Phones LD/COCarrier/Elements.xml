@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{9b20d6db-346f-4cf1-83ff-dde7f9d08a62}"
+       Name="Carrier"
+       DisplayName="Carrier"
+       Type="Text"
+       Required="FALSE"
+       Group="TrisCorp Angular Phone App">
+  </Field>
+</Elements>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{21274771-3725-47d4-b0e9-fe03be21103d}"
+       Name="Age"
+       DisplayName="Age"
+       StaticName="Age"
+       Type="Number"
+       Required="FALSE"
+       Decimals="0"
+       Group="TrisCorp Angular Phone App">
+  </Field>
+</Elements>
